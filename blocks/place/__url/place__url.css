@@ -1,0 +1,19 @@
+.place__url {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.place__url:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .place__url {
+        line-height: 170%;
+    }
+}

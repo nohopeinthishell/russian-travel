@@ -4,20 +4,30 @@
     justify-content: space-between;
     align-items: end;
     max-width: 1184px;
-    margin: 0 auto;
-    padding: 28px 48px 0;
+    margin: 28px auto 56px;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px){
     .header {
-        padding: 28px 24px 0;
+        margin-bottom: 48px;
     }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px){
     .header {
-        padding: 16px 16px 0;
+        padding: 0 24px;
+        margin: 28px auto 48px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 0 16px;
+        margin: 16px auto 48px;
     }
 
 }
