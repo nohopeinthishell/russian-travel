@@ -4,13 +4,18 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 18px;
     
 
     
 }
 
-.header__lang-link:first-child {
-    margin-right: 18px;
+.header__lang-link_active:hover {
+    opacity: 0.8;
+}
+
+.header__lang-link:last-child {
+    margin-right: 0;
 }
 
 @media screen and (max-width: 767px) {
